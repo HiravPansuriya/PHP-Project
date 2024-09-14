@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUUSo7THCDrJG629AyXKTeQr1Cl-CpU6jgQ4WD63gmZYyrvU6SrKx17XxiIH7D8z7M_w&usqp=CAU">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <style>
+        body {
+            background-color: black;
+            min-height: 80vh;
+        }
+
+        .heading {
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            text-decoration: underline;
+            text-align: center;
+            margin: 100px 0px;
+            color:rgb(0,150,200);
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: flex-end;
+        }
+
+        .box {
+            background-color: black;
+            width: 450px;
+            height: 400px;
+            border-radius: 40px;
+            display: grid;
+            grid-template-columns: 150px 300px;
+            font-size: 20px;
+            padding: 0px 20px;
+            box-shadow: 0px 0px 5px white;
+            color: white;
+        }
+
+        .box .name {
+            padding-top: 20px;
+            font-size: 30px;
+            font-family: "Poppins", sans-serif;
+            font-weight: bolder;
+            text-decoration: underline;
+            text-align: center;
+            grid-column: 1 / span 2;
+            color:rgb(150, 224, 251)
+        }
+
+        .box .logo {
+            grid-column: 1 / span 2;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box .logo i {
+            font-size: 40px;
+            color: gray;
+            text-align: center;
+        }
+
+        #linked {
+            margin-top: -12px;
+        }
+
+        #git {
+            margin-top: -1px;
+            background-color: white;
+            border-radius: 25px;
+        }
+
+        .emailid a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .phone,
+        .email,
+        .follow {
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(0,150,200);
+        }
+        
+        .phoneno,
+        .emailid {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .emailid a{
+            color: white;
+        }
+
+        .navbar a {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .icon {
+            list-style: none;
+            margin-left: -15px;
+        }
+
+        .navbar {
+            display: flex;
+            box-sizing: border-box;
+            background-color: black;
+            height: 70px;
+            top: -15px;
+            right: 0;
+            left: 0;
+            padding-right: 20px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            position: fixed;
+        }
+
+        .navbar a:hover {
+            cursor: pointer;
+            color: rgb(0,150,200);
+        }
+
+        .navbar i {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <ul class="navbar">
+            <div class="icon">
+                <a href="home.html"><i class='bx bxs-home'></i></a>
+            </div>
+        </ul>
+    </div>
+    <div class="heading">About Us</div>
+    <div class="container">
+        <div class="box">
+            <div class="name">Pansuriya Hirav</div>
+            <div class="phone">Phone No. : </div>
+            <div class="phoneno">8799580058 </div>
+            <div class="email">Email : </div>
+            <div class="emailid"><a href="mailto:pansuriyahirav@gmail.com">pansuriyahirav@gmail.com</a></div>
+            <div class="follow">Follow Us On : </div>
+            <div class="logo">
+                <a href="https://www.instagram.com/pansuriya_hirav_?utm_source=qr&igsh=Z2Q1eXd1Zm5teGtv"
+                    target="_blank"><img id="insta"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        height="45" width="45"></a>
+                <a href="https://www.linkedin.com/in/hirav-pansuriya-312b872a2?utm_source=shareutm_campaign=share_viautm_content=profileutm_medium=android_app"
+                    target="_blank"><img id="linked"
+                        src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"
+                        height="70" width="70"> </a>
+                <a href="https://github.com/HiravPansuriya" target="_blank"><img id="git"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="50" width="50"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="name">Parekh Manthan</div>
+            <div class="phone">Phone : </div>
+            <div class="phoneno">9054406678 </div>
+            <div class="email">Email : </div>
+            <div class="emailid"><a href="mailto:manthanparekh455@gmail.com">manthanparekh455@gmail.com</a></div>
+            <div class="follow">Follow Us On : </div>
+            <div class="logo">
+                <a href="https://www.instagram.com/manthan_parekh_01?igsh=MXY4bnUxNjA2NHZrdQ==" target="_blank"><img
+                        id="insta"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        height="45" width="45"></a>
+                <a href="http://www.linkedin.com/in/manthan-parekh-442038278" target="_blank"><img id="linked"
+                        src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"
+                        height="70" width="70"></a>
+                <a href="https://github.com/Manthan666" target="_blank"><img id="git"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="50" width="50"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

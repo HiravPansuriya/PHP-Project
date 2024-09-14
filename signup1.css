@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 5px white;
+    color: black;
+    padding: 30px 40px;
+    border-radius: 25px;
+}
+
+.name i,
+.email i,
+.password i,
+.cpassword i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 100, 200);
+}
+
+strong {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.name,
+.email,
+.password,
+.cpassword {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    font-size: 10px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 50px 20px 20px;
+
+}
+
+input::placeholder {
+    color: gray;
+}
+
+.button button {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgb(0, 100, 200);
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(0, 100, 200);
+    margin-top: 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(0,100,200);
+    border: 2px solid rgb(0, 100, 200);
+}
+
+.account {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.account a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.account a:hover {
+    text-decoration: underline;
+    color: rgb(0, 150, 200);
+}
+
+.navbar a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 15px;
+}
+
+.navbar {
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    box-shadow: 1px 1px 10px black;
+    backdrop-filter: blur(20px);
+    height: 70px;
+    top: 0px;
+    right: 0;
+    left: 0;
+    padding-right: 20px;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+}
+
+.container1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    margin-right: 10px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: rgb(0, 150, 200);
+}
+
+.navbar i {
+    font-size: 30px;
+    display: flex;
+}

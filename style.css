@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+.heading {
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(0,150,200);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container_2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    text-align: center;
+    grid-gap: 10px;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(190,190,190);
+}
+
+.container1 #box3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    text-align: center;
+    grid-gap: 10px;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(190,190,190);
+}
+
+.container2 #box4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    text-align: center;
+    grid-gap: 10px;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(190,190,190);
+}
+
+.container3 #box5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.boxs {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.box {
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container input[type="checkbox"] {
+    margin: 5px;    
+}
+
+.form-container input[type="submit"] {
+    margin: 10px;
+}
+.checkboxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.checkboxes #Table1,#Table2,#Table3,#Table4,#Table5,#Table6{
+    margin-left:-5px;
+    height:15px;
+    width:15px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1.3rem;
+    transition: all .2s ease-in-out;
+}
+.book .btns{
+    background-color: rgb(100, 250, 140);
+    border: 2px solid rgb(100, 250, 140);
+}
+.unbook .btns{
+    background-color: rgb(250, 150, 150);
+    border: 2px solid rgb(250, 150, 150);
+}
+
+.book .btns:hover{
+    border: 2px solid rgb(100, 250, 140);
+    color: rgb(100, 250, 140);
+    background-color: #000;
+}
+.unbook .btns:hover{
+    border: 2px solid rgb(250, 150, 150);
+    color: rgb(250, 150, 150);
+    background-color: #000;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+label{
+    color:white;
+    font-size: 1.5rem;
+}

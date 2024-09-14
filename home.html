@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUUSo7THCDrJG629AyXKTeQr1Cl-CpU6jgQ4WD63gmZYyrvU6SrKx17XxiIH7D8z7M_w&usqp=CAU">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            /* background-color: rgb(232, 229, 229); */
+            background-color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            overflow-y: hidden;
+        }
+
+        .signup,
+        .login,
+        .about {
+            list-style: none;
+            padding: 0px 15px;
+        }
+
+        .icon {
+            margin-right: auto;
+        }
+
+        .navbar {
+            display: flex;
+            box-sizing: border-box;
+            background-color: black;
+            box-shadow: 1px 1px 10px black;
+            backdrop-filter: blur(20px);
+            height: 70px;
+            margin: -7px -7px 0px -7px;
+            padding-right: 20px;
+            padding-top: 5px;
+            width: 100%;
+            justify-content: end;
+            align-items: center;
+            position: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar a {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 1px 5px;
+            transition: all 0.3s;
+        }
+
+        .navbar a:hover {
+            cursor: pointer;
+            background-color: black;
+            color: rgb(0, 150, 200);
+            border: 2px solid rgb(0, 150, 200);
+        }
+
+        .navbar i {
+            font-size: 30px;
+            display: flex;
+        }
+
+        .img {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <ul class="navbar">
+            <div class="signup">
+                <a href="signup1.php">Sign Up</a>
+            </div>
+            <div class="login">
+                <a href="login1.php">Log In</a>
+            </div>
+            <div class="about">
+                <a href="about.html">About Us</a>
+            </div>
+        </ul>
+        <div class="img">
+            <img src="logo.png" height="500px" width="500px">
+        </div>
+    </div>
+</body>
+
+</html>
